@@ -1,0 +1,260 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>     
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">     
+    <link rel="stylesheet" href="style.css">     
+    <title>Local Coffee House</title> 
+</head> 
+<body>     
+    <header class="container-fluid py-3 bg-dark">         
+        <div class="container">             
+            <div class="row align-items-center">                 
+                <div class="col-12 col-md-6">                     
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">                         
+                        <i class="bi bi-cup-hot-fill me-2 fs-5 text-warning"></i>                         
+                        <h1 class="fs-5 mb-0 text-warning fw-bold">Local Coffee</h1>                     
+                    </div>                 
+                </div>                 
+                <div class="col-12 col-md-6">                     
+                    <div class="d-flex justify-content-center justify-content-md-end">                         
+                        <a href="#" class="btn btn-outline-light me-2">Menu</a>                         
+                        <button type="button" class="btn btn-warning">Order Now</button>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>     
+    </header>     
+    <main class="container-fluid p-0 mb-5">         
+        <section class="alert alert-warning m-0 alert-dismissible">             
+            <p class="mb-0 py-1 text-center">                 
+                <strong>Great Deal!</strong>                 
+                Today, a free cookie with all coffees!             
+            </p>             
+            <button type="button" class="btn btn-close mt-1" data-bs-dismiss="alert"></button>         
+        </section>         
+        <section class="py-5 bg-light text-center border-bottom mb-5">             
+            <ul class="breadcrumb d-flex justify-content-center">                 
+                <li class="breadcrumb-item">                     
+                    <a href="#" class="text-decoration-none">Home</a>                 
+                </li>                 
+                <li class="breadcrumb-item active">                     
+                    <a href="#" class="text-decoration-none text-secondary">Campaigns</a>                 
+                </li>             
+            </ul>             
+            <h2 class="display-4 fw-bold py-3">The Best Coffee in Town</h2>             
+            <p class="fs-5 opacity-75">Carefully selected beans and flavors crafted by master hands.</p>         
+        </section>         
+        <section class="container mb-5">             
+            <div class="row g-4 justify-content-center">                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div class="border p-4 rounded-3 text-center shadow-sm">                         
+                        <i class="bi bi-wifi display-4 text-primary"></i>                         
+                        <h3 class="fs-5 pt-3">Free Wi-Fi</h3>                         
+                        <p class="pt-1 opacity-75">Enjoy high-speed internet while working or relaxing.</p>                     
+                    </div>                 
+                </div>                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div class="border p-4 rounded-3 text-center shadow-sm">                         
+                        <i class="bi bi-flower1 display-4 text-success"></i>                         
+                        <h3 class="fs-5 pt-3">100% Organic</h3>                         
+                        <p class="pt-1 opacity-75">Our beans are produced entirely through sustainable and organic farming.</p>                     
+                    </div>                 
+                </div>                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div class="border p-4 rounded-3 text-center shadow-sm">                         
+                        <i class="bi bi-clock-history display-4 text-warning"></i>                         
+                        <h3 class="fs-5 pt-3">Fast Service</h3>                         
+                        <p class="pt-1 opacity-75">Your time is valuable. Your coffee is served hot in minutes.</p>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </section>         
+        <section class="mb-5">             
+            <h3 class="mb-4 text-center">Our Menu</h3>             
+            <div class="container">                 
+                <div class="row row-cols-2 g-4">                     
+                    <div class="col-12 col-md-4">                         
+                        <div class="list-group" role="tablist">                             
+                            <a href="#hotDrinks" class="list-group-item list-group-item-action" id="hot" data-bs-toggle="list">Hot Drinks</a>                             
+                            <a href="#coldDrinks" class="list-group-item list-group-item-action" id="cold" data-bs-toggle="list">Cold Drinks</a>                         
+                        </div>                     
+                    </div>                     
+                    <div class="col-12 col-md-8">                         
+                        <div class="tab-content">                             
+                            <div class="tab-pane fade" id="hotDrinks" aria-labelledby="hot">                                 
+                                <div class="d-flex justify-content-between py-2 border-bottom">                                     
+                                    <div>                                         
+                                        <span class="fw-bold me-2">Espresso</span>                                         
+                                        <span class="badge bg-danger">Best Seller</span>                                     
+                                    </div>                                     
+                                    <span class="fw-bold text-success">65 TL</span>                                 
+                                </div>                                 
+                                <div class="d-flex justify-content-between py-2 border-bottom">                                     
+                                    <div>                                         
+                                        <span>Caffè Latte</span>                                     
+                                    </div>                                     
+                                    <span class="fw-bold text-success">85 TL</span>                                 
+                                </div>                                 
+                                <div class="d-flex justify-content-between py-2 border-bottom">                                     
+                                    <div>                                         
+                                        <span class="fw-bold me-2">Filter Coffee</span>                                         
+                                        <span class="badge bg-primary">New</span>                                     
+                                    </div>                                     
+                                    <span class="fw-bold text-success">70 TL</span>                                 
+                                </div>                             
+                            </div>                             
+                            <div class="tab-pane fade" id="coldDrinks" aria-labelledby="cold">                                 
+                                <div class="d-flex justify-content-between py-2 border-bottom">                                     
+                                    <div>                                         
+                                        <span>Iced Americano</span>                                     
+                                    </div>                                     
+                                    <span class="fw-bold text-success">80 TL</span>                                 
+                                </div>                                 
+                                <div class="d-flex justify-content-between py-2 border-bottom">                                     
+                                    <div>                                         
+                                        <span>Cold Brew</span>                                     
+                                    </div>                                     
+                                    <span class="fw-bold text-success">95 TL</span>                                 
+                                </div>                             
+                            </div>                         
+                        </div>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </section>         
+        <section class="mb-5">             
+            <div class="container">                 
+                <div class="tableContainer bg-light p-4 border rounded-3">                     
+                    <h3 class="mb-4">Coffee Intensity Guide</h3>                     
+                    <div class="table-responsive">                         
+                        <table class="table text-center table-bordered table-hover">                             
+                            <thead class="table-dark">                                 
+                                <tr>                                     
+                                    <th>Coffee Type</th>                                     
+                                    <th>Milk Ratio</th>                                     
+                                    <th>Intensity Level</th>                                 
+                                </tr>                             
+                            </thead>                             
+                            <tbody>                                 
+                                <tr>                                     
+                                    <td>Espresso</td>                                     
+                                    <td>None</td>                                     
+                                    <td>                                         
+                                        <div class="progress" style="height: 20px;">                                             
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-100" aria-valuemin="0" aria-valuemax="10" aria-valuenow="10">10/10</div>                                         
+                                        </div>                                     
+                                    </td>                                 
+                                </tr>                                 
+                                <tr>                                     
+                                    <td>Americano</td>                                     
+                                    <td>None</td>                                     
+                                    <td>                                         
+                                        <div class="progress" style="height: 20px;">                                             
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7" style="width: 70%;">7/10</div>                                         
+                                        </div>                                     
+                                    </td>                                 
+                                </tr>                                 
+                                <tr>                                     
+                                    <td>Latte</td>                                     
+                                    <td>High</td>                                     
+                                    <td>                                         
+                                        <div class="progress" style="height: 20px;">                                             
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" aria-valuemin="0" aria-valuemax="10" aria-valuenow="3" style="width: 30%;">3/10</div>                                         
+                                        </div>                                     
+                                    </td>                                 
+                                </tr>                             
+                            </tbody>                         
+                        </table>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </section>         
+        <section>             
+            <div class="container">                 
+                <h3 class="mb-5 text-center">What Our Customers Say?</h3>                 
+                <div class="row justify-content-center g-4">                     
+                    <div class="col-12 col-md-6 col-lg-4">                         
+                        <div class="text-center">                             
+                            <img src="img/customer1.jpg" alt="Customer 1" style="width: 100px; height: 100px;" class="img-fluid rounded-circle">                             
+                            <p class="py-3">"By far the best espresso in town is here."</p>                         
+                        </div>                     
+                    </div>                     
+                    <div class="col-12 col-md-6 col-lg-4">                         
+                        <div class="text-center">                             
+                            <img src="img/customer2.jpg" alt="Customer 2" style="width: 100px; height: 100px;" class="img-fluid rounded-circle">                             
+                            <p class="py-3">"A great environment for working, the internet is very fast."</p>                         
+                        </div>                     
+                    </div>                     
+                    <div class="col-12 col-md-6 col-lg-4">                         
+                        <div class="text-center">                             
+                            <img src="img/customer3.jpg" alt="Customer 3" style="width: 100px; height: 100px;" class="img-fluid rounded-circle">                             
+                            <p class="py-3">"The filter coffee is addictive!"</p>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="row mt-2">                     
+                    <nav aria-label="Review Pagination">                         
+                        <ul class="pagination d-flex justify-content-center">                             
+                            <li class="page-item disabled">                                 
+                                <a href="#" class="page-link">Previous</a>                             
+                            </li>                             
+                            <li class="page-item active">                                 
+                                <a href="#" class="page-link">1</a>                             
+                            </li>                             
+                            <li class="page-item">                                 
+                                <a href="#" class="page-link">2</a>                             
+                            </li>                             
+                            <li class="page-item">                                 
+                                <a href="#" class="page-link">3</a>                             
+                            </li>                             
+                            <li class="page-item">                                 
+                                <a href="#" class="page-link">4</a>                             
+                            </li>                         
+                        </ul>                     
+                    </nav>                 
+                </div>             
+            </div>         
+        </section>     
+    </main>     
+    <footer class="container-fluid bg-dark py-4">         
+        <div class="container">             
+            <div class="row align-items-center g-4 justify-content-center">                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div>                         
+                        <p class="text-light mb-0 text-center text-lg-start">© 2026 Local Coffee House.</p>                     
+                    </div>                 
+                </div>                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div class="d-flex justify-content-center">                         
+                        <div class="btn-group">                             
+                            <button type="button" class="btn btn-outline-light">                                 
+                                <i class="bi bi-instagram"></i>                             
+                            </button>                             
+                            <button type="button" class="btn btn-outline-light">                                 
+                                <i class="bi bi-twitter-x"></i>                             
+                            </button>                             
+                            <button type="button" class="btn btn-outline-light">                                 
+                                <i class="bi bi-facebook"></i>                             
+                            </button>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="col-12 col-md-6 col-lg-4">                     
+                    <div class="text-center text-lg-end">                         
+                        <button type="button" class="btn btn-warning disabled">                             
+                            <span class="spinner-border spinner-border-sm me-2"></span>                             
+                            Subscribing to Newsletter...                         
+                        </button>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>     
+    </footer>     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
+</body> 
+</html>
